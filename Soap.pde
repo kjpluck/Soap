@@ -43,7 +43,7 @@ void draw()
     fill(0);
     textSize(25);
     textAlign(RIGHT);
-    text("PixelMoversAndMakers.com\n@KevPluck", 980, 30);
+    text("PixelMoversAndMakers.com\n@KevPluck\nTraduction française par\n@lavergnetho", 980, 30);
   popStyle();
   
   pushMatrix();
@@ -125,30 +125,30 @@ void draw()
   pushStyle();
   fill(0);
   if(frameCount > 5 && frameCount < 30)
-    text("This is a\ncorona virus", 500, 850);
+    text("Ceci est un\ncoronavirus", 500, 850);
     
   if(frameCount >= 30 && frameCount < 60)
-    text("They are basically\nballs of RNA", 500, 850);
+    text("En gros, ce sont\ndes pelotes d’ARN", 500, 850);
     
   if(frameCount >= 60 && frameCount < 90)
-    text("Protected by protein", 500, 850);
+    text("Protégées par\ndes protéines", 500, 850);
     
   if(frameCount >= 90 && frameCount < 120)
-    text("Stuck together\nwith grease", 500, 850);
+    text("Tenues ensemble\npar du gras", 500, 850);
     
   if(frameCount >= 120 && frameCount < 150)
-    text("Plain old everyday soap", 500, 850);
+    text("Un savon ordinaire", 500, 850);
     
   if(frameCount >= 150 && frameCount < 180)
-    text("Dissolves the grease", 500, 850);
+    text("Dissout le gras", 500, 850);
     
   if(frameCount >= 180 && frameCount < 210)
-    text("Destroying the virus", 500, 850);
+    text("Détruisant le virus", 500, 850);
     
   if(frameCount >= 220)
   {
     textSize(200);
-    text("WASH\nYOUR\nHANDS", 500, 500);
+    text("LAVE-TOI\nLES\nMAINS", 500, 500);
   }
   popStyle();
   
