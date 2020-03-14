@@ -29,7 +29,7 @@ void setup()
   
   helveticaLarge = createFont("helvetica-normal-58c348882d347.ttf", 64);
   textFont(helveticaLarge);
-  textSize(90);
+  textSize(80);
   
     videoExport = new VideoExport(this);
     videoExport.setFrameRate(10);
@@ -43,7 +43,7 @@ void draw()
     fill(0);
     textSize(25);
     textAlign(RIGHT);
-    text("PixelMoversAndMakers.com\n@KevPluck", 980, 30);
+    text("PixelMoversAndMakers.com\n@KevPluck\nDeutsche Übersetzung\nvon @JoernGe", 980, 30);
   popStyle();
   pushMatrix();
     translate(0,-120);
@@ -122,30 +122,30 @@ void draw()
   pushStyle();
   fill(0);
   if(frameCount > 5 && frameCount < 30)
-    text("This is a\ncorona virus", 500, 850);
+    text("Dies ist\nein Coronavirus", 500, 850);
     
   if(frameCount >= 30 && frameCount < 60)
-    text("They are basically\nballs of RNA", 500, 850);
+    text("Es sind im Grunde\ngenommen Kugeln\naus RNA", 500, 840);
     
   if(frameCount >= 60 && frameCount < 90)
-    text("Protected by protein", 500, 850);
+    text("Geschützt durch\nProtein", 500, 850);
     
   if(frameCount >= 90 && frameCount < 120)
-    text("Stuck together\nwith grease", 500, 850);
+    text("Mit Fett\nzusammengehalten", 500, 850);
     
   if(frameCount >= 120 && frameCount < 150)
-    text("Plain old everyday soap", 500, 850);
+    text("Einfache altmodische\nSeife", 500, 850);
     
   if(frameCount >= 150 && frameCount < 180)
-    text("Dissolves the grease", 500, 850);
+    text("Löst das Fett auf", 500, 850);
     
   if(frameCount >= 180 && frameCount < 210)
-    text("Destroying the virus", 500, 850);
+    text("Zerstört das Virus", 500, 850);
     
   if(frameCount >= 220)
   {
-    textSize(200);
-    text("WASH\nYOUR\nHANDS", 500, 500);
+    textSize(180);
+    text("HÄNDE\nWASCHEN", 500, 500);
   }
   popStyle();
   
