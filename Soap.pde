@@ -5,7 +5,7 @@ String translationCredit = "Traducción al español\npor @margonjus";
 String Line1 = "Esto es el\ncorona virus";            
 
 // "They are basically\nballs of RNA"
-String Line2 = "Básicamente una\npelota de ADN";   
+String Line2 = "Básicamente una\npelota de ARN";   
 
 // "Protected by protein"
 String Line3 = "Protegida por proteinas";
