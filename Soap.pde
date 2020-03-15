@@ -1,29 +1,30 @@
 
-String translationCredit = "";
+
+String translationCredit = "Tłumaczenie na\njęzyk polski przez\nMarcin Badtke";
 
 // "This is a\ncorona virus"
-String Line1 = "This is a\ncorona virus";            
+String Line1 = "To jest\nkorona wirus";            
 
 // "They are basically\nballs of RNA"
-String Line2 = "They are basically\nballs of RNA";   
+String Line2 = "Są po prostu\nkulkami RNA";   
 
 // "Protected by protein"
-String Line3 = "Protected by protein";
+String Line3 = "Chronionymi przez\nproteiny";
 
 // "Stuck together\nwith grease"
-String Line4 = "Stuck together\nwith grease";
+String Line4 = "Utrzymywanymi\nrazem przez tłuszcz";
 
 // "Plain old everyday soap"
-String Line5 = "Plain old everyday soap";
+String Line5 = "Zwykłe codzienne\nmydło";
 
 // "Dissolves the grease"
-String Line6 = "Dissolves the grease";
+String Line6 = "Rozpuszcza tłuszcz";
 
 // "Destroying the virus"
-String Line7 = "Destroying the virus";   
+String Line7 = "Niszcząc wirusa";   
 
 // "WASH\nYOUR\nHANDS"
-String Line8 = "WASH\nYOUR\nHANDS";
+String Line8 = "MYJ\nRĘCE";
 int Line8FontSize = 200;
 
 import com.hamoid.*;
@@ -54,9 +55,10 @@ void setup()
   
   textAlign(CENTER, CENTER);
   
-  helveticaLarge = createFont("helvetica-normal-58c348882d347.ttf", 64);
-  textFont(helveticaLarge);
+  //helveticaLarge = createFont("helvetica-normal-58c348882d347.ttf", 64);
+  //textFont(helveticaLarge);
   textSize(90);
+  textLeading(95);
   
   videoExport = new VideoExport(this);
   videoExport.setFrameRate(10);
