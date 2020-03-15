@@ -8,7 +8,7 @@ String Line1 = "Detta är ett\nCorona-virus";
 String Line2 = "De består av en\nboll av RNA";   
 
 // "Protected by protein"
-String Line3 = "Kyddad av proteiner";
+String Line3 = "Skyddad av proteiner";
 
 // "Stuck together\nwith grease"
 String Line4 = "Som sitter ihop\nmed fett";
