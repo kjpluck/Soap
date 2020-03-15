@@ -1,30 +1,30 @@
 
-String translationCredit = "";
+String translationCredit = "Traducción al español\npor @margonjus";
 
 // "This is a\ncorona virus"
-String Line1 = "This is a\ncorona virus";            
+String Line1 = "Esto es el\ncorona virus";            
 
 // "They are basically\nballs of RNA"
-String Line2 = "They are basically\nballs of RNA";   
+String Line2 = "Básicamente una\npelota de ADN";   
 
 // "Protected by protein"
-String Line3 = "Protected by protein";
+String Line3 = "Protegida por proteinas";
 
 // "Stuck together\nwith grease"
-String Line4 = "Stuck together\nwith grease";
+String Line4 = "Unidas con grasa";
 
 // "Plain old everyday soap"
-String Line5 = "Plain old everyday soap";
+String Line5 = "El simple jabón diario";
 
 // "Dissolves the grease"
-String Line6 = "Dissolves the grease";
+String Line6 = "Disuelve la grasa";
 
 // "Destroying the virus"
-String Line7 = "Destroying the virus";   
+String Line7 = "Destruyendo el virus";   
 
 // "WASH\nYOUR\nHANDS"
-String Line8 = "WASH\nYOUR\nHANDS";
-int Line8FontSize = 200;
+String Line8 = "LÁVATE LAS\nMANOS CON\nJABÓN";
+int Line8FontSize = 150;
 
 import com.hamoid.*;
 VideoExport videoExport;
