@@ -1,29 +1,29 @@
 
-String translationCredit = "";
+String translationCredit = "Nederlandse vertaling\ndoor @PotatoTotoros";
 
 // "This is a\ncorona virus"
-String Line1 = "This is a\ncorona virus";            
+String Line1 = "Dit is een\ncoronavirus";            
 
 // "They are basically\nballs of RNA"
-String Line2 = "They are basically\nballs of RNA";   
+String Line2 = "Het zijn een soort\nballen gemaakt van RNA";   
 
 // "Protected by protein"
-String Line3 = "Protected by protein";
+String Line3 = "Beschermd\ndoor eiwitten";
 
 // "Stuck together\nwith grease"
-String Line4 = "Stuck together\nwith grease";
+String Line4 = "Samengebonden\nmet vet";
 
 // "Plain old everyday soap"
-String Line5 = "Plain old everyday soap";
+String Line5 = "Gewone alledaagse\nzeep";
 
 // "Dissolves the grease"
-String Line6 = "Dissolves the grease";
+String Line6 = "Lost het vet op";
 
 // "Destroying the virus"
-String Line7 = "Destroying the virus";   
+String Line7 = "Vernietigt het virus";   
 
 // "WASH\nYOUR\nHANDS"
-String Line8 = "WASH\nYOUR\nHANDS";
+String Line8 = "WAS\nJE\nHANDEN";
 int Line8FontSize = 200;
 
 import com.hamoid.*;
@@ -56,7 +56,7 @@ void setup()
   
   helveticaLarge = createFont("helvetica-normal-58c348882d347.ttf", 64);
   textFont(helveticaLarge);
-  textSize(90);
+  textSize(80);
   
   videoExport = new VideoExport(this);
   videoExport.setFrameRate(10);
