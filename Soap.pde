@@ -1,29 +1,30 @@
 
-String translationCredit = "";
+
+String translationCredit = "Norsk oversettelse\nav @hohygen";
 
 // "This is a\ncorona virus"
-String Line1 = "This is a\ncorona virus";            
+String Line1 = "Dette er et\nKoronavirus";            
 
 // "They are basically\nballs of RNA"
-String Line2 = "They are basically\nballs of RNA";   
+String Line2 = "De består av\nen ball av RNA";   
 
 // "Protected by protein"
-String Line3 = "Protected by protein";
+String Line3 = "Beskyttet av proteiner";
 
 // "Stuck together\nwith grease"
-String Line4 = "Stuck together\nwith grease";
+String Line4 = "Som holdes\nsamman av fett";
 
 // "Plain old everyday soap"
-String Line5 = "Plain old everyday soap";
+String Line5 = "Vanlig såpe";
 
 // "Dissolves the grease"
-String Line6 = "Dissolves the grease";
+String Line6 = "Løser opp fettet";
 
 // "Destroying the virus"
-String Line7 = "Destroying the virus";   
+String Line7 = "Og dreper viruset";   
 
 // "WASH\nYOUR\nHANDS"
-String Line8 = "WASH\nYOUR\nHANDS";
+String Line8 = "VASK\nHENDENE";
 int Line8FontSize = 200;
 
 import com.hamoid.*;
