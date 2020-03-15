@@ -1,30 +1,30 @@
 
-String translationCredit = "";
+String translationCredit = "@cgkirici Türkçe çeviri";
 
 // "This is a\ncorona virus"
-String Line1 = "This is a\ncorona virus";            
+String Line1 = "Bu bir\nKorona Virüsü";            
 
 // "They are basically\nballs of RNA"
-String Line2 = "They are basically\nballs of RNA";   
+String Line2 = "RNA yumağı gibi\ndüşünülebilir";   
 
 // "Protected by protein"
-String Line3 = "Protected by protein";
+String Line3 = "Etrafındaki koruyucu\nproteinler";
 
 // "Stuck together\nwith grease"
-String Line4 = "Stuck together\nwith grease";
+String Line4 = "Birbirine yağ\nile bağlıdır";
 
 // "Plain old everyday soap"
-String Line5 = "Plain old everyday soap";
+String Line5 = "Günlük el sabunu";
 
 // "Dissolves the grease"
-String Line6 = "Dissolves the grease";
+String Line6 = "Aradaki yağı çözer";
 
 // "Destroying the virus"
-String Line7 = "Destroying the virus";   
+String Line7 = "Virüsü ortadan kaldırır";   
 
 // "WASH\nYOUR\nHANDS"
-String Line8 = "WASH\nYOUR\nHANDS";
-int Line8FontSize = 200;
+String Line8 = "ELLERINIZI\nYIKAYIN";
+int Line8FontSize = 150;
 
 import com.hamoid.*;
 VideoExport videoExport;
