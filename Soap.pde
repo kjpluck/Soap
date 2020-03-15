@@ -1,3 +1,31 @@
+
+String translationCredit = "";
+
+// "This is a\ncorona virus"
+String Line1 = "This is a\ncorona virus";            
+
+// "They are basically\nballs of RNA"
+String Line2 = "They are basically\nballs of RNA";   
+
+// "Protected by protein"
+String Line3 = "Protected by protein";
+
+// "Stuck together\nwith grease"
+String Line4 = "Stuck together\nwith grease";
+
+// "Plain old everyday soap"
+String Line5 = "Plain old everyday soap";
+
+// "Dissolves the grease"
+String Line6 = "Dissolves the grease";
+
+// "Destroying the virus"
+String Line7 = "Destroying the virus";   
+
+// "WASH\nYOUR\nHANDS"
+String Line8 = "WASH\nYOUR\nHANDS";
+int Line8FontSize = 200;
+
 import com.hamoid.*;
 VideoExport videoExport;
 import processing.video.*;
@@ -43,7 +71,7 @@ void draw()
     fill(0);
     textSize(25);
     textAlign(RIGHT);
-    text("PixelMoversAndMakers.com\n@KevPluck", 980, 30);
+    text("PixelMoversAndMakers.com\n@KevPluck\n"+translationCredit, 980, 30);
   popStyle();
   
   pushMatrix();
@@ -125,30 +153,30 @@ void draw()
   pushStyle();
   fill(0);
   if(frameCount > 5 && frameCount < 30)
-    text("This is a\ncorona virus", 500, 850);
+    text(Line1, 500, 850);
     
   if(frameCount >= 30 && frameCount < 60)
-    text("They are basically\nballs of RNA", 500, 850);
+    text(Line2, 500, 850);
     
   if(frameCount >= 60 && frameCount < 90)
-    text("Protected by protein", 500, 850);
+    text(Line3, 500, 850);
     
   if(frameCount >= 90 && frameCount < 120)
-    text("Stuck together\nwith grease", 500, 850);
+    text(Line4, 500, 850);
     
   if(frameCount >= 120 && frameCount < 150)
-    text("Plain old everyday soap", 500, 850);
+    text(Line5, 500, 850);
     
   if(frameCount >= 150 && frameCount < 180)
-    text("Dissolves the grease", 500, 850);
+    text(Line6, 500, 850);
     
   if(frameCount >= 180 && frameCount < 210)
-    text("Destroying the virus", 500, 850);
+    text(Line7, 500, 850);
     
   if(frameCount >= 220)
   {
-    textSize(200);
-    text("WASH\nYOUR\nHANDS", 500, 500);
+    textSize(Line8FontSize);
+    text(Line8, 500, 500);
   }
   popStyle();
   
