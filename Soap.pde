@@ -1,29 +1,29 @@
 
-String translationCredit = "";
+String translationCredit = "Traduzione italiana di\n@Giulio_Firenze e\n@SellaTheChemist";
 
 // "This is a\ncorona virus"
-String Line1 = "This is a\ncorona virus";            
+String Line1 = "Questo è un\ncoronavirus";            
 
 // "They are basically\nballs of RNA"
-String Line2 = "They are basically\nballs of RNA";   
+String Line2 = "Sono delle \n\"palline\" di RNA";   
 
 // "Protected by protein"
-String Line3 = "Protected by protein";
+String Line3 = "Sono protette da\nproteine";
 
 // "Stuck together\nwith grease"
-String Line4 = "Stuck together\nwith grease";
+String Line4 = "Incollate insieme\ndai grassi";
 
 // "Plain old everyday soap"
-String Line5 = "Plain old everyday soap";
+String Line5 = "Il classico sapone";
 
 // "Dissolves the grease"
-String Line6 = "Dissolves the grease";
+String Line6 = "Dissolve il grasso";
 
 // "Destroying the virus"
-String Line7 = "Destroying the virus";   
+String Line7 = "Distruggendo il virus";   
 
 // "WASH\nYOUR\nHANDS"
-String Line8 = "WASH\nYOUR\nHANDS";
+String Line8 = "LAVATI\nLE\nMANI";
 int Line8FontSize = 200;
 
 import com.hamoid.*;
